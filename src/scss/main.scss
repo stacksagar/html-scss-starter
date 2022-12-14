@@ -1,0 +1,27 @@
+/*
+Template Name: - HTML Template
+
+Author: bangladeshisoftwares
+Author URI: https://themeforest.net/user/bangladeshisoftware
+Version: 1.0.0
+*/
+
+/* TABLE OF CONTENTS
+	- Base
+	- Header
+	- Sidebar
+	- Footer
+	- Sections
+*/
+@import "base/base";
+
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/buttons";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/layout";
+
+@import "pages/home";
