@@ -18,9 +18,6 @@ Version: 1.0.0
   padding: 0px;
   font-family: Roboto, Oswald, Merienda, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
-body {
-  background: #fcfafa; }
-
 a {
   text-decoration: none; }
 
@@ -29,10 +26,6 @@ input:focus {
 
 p {
   letter-spacing: 0.2px; }
-
-.container {
-  width: calc(100% - 40px);
-  margin: 0 auto; }
 
 h1 {
   font-size: 42px; }
@@ -95,48 +88,6 @@ label {
     cursor: not-allowed;
     opacity: 0.7; }
 
-.base_input_icon {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .base_input_icon input {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    height: 40px;
-    background: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 0 12px;
-    padding-left: 52px;
-    outline: 2px solid #ddd; }
-    .base_input_icon input:focus {
-      outline: 2px solid #5f22d1; }
-    .base_input_icon input:disabled {
-      cursor: not-allowed;
-      opacity: 0.7; }
-  .base_input_icon .icon {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    min-width: 40px;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px 0 0 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #eee;
-    font-size: 14px; }
-    .base_input_icon .icon img {
-      width: 20px; }
-    .base_input_icon .icon span {
-      border-radius: 1px solid #ddd; }
-  .base_input_icon button {
-    margin-left: 5px; }
-
 .base_textarea {
   width: 100%;
   max-width: 100%;
@@ -184,22 +135,6 @@ label {
   .danger:focus {
     outline: 2px solid #ec3d6c; }
 
-.text-primary {
-  color: #ff27c2; }
-
-.flex_between {
-  display: flex;
-  justify-content: space-between; }
-
-.flex_inputs {
-  display: flex;
-  justify-content: space-between;
-  gap: 0 12px; }
-  @media (max-width: 768px) {
-    .flex_inputs {
-      flex-direction: column;
-      gap: 24px 0px; } }
-
 .transparent_scrollbar {
   scrollbar-color: transparent transparent;
   scrollbar-width: thin; }
@@ -213,3 +148,9 @@ label {
 
 .transparent_scrollbar::-webkit-scrollbar-thumb {
   background-color: transparent; }
+
+body {
+  background: #ddd; }
+
+.main_wrapper {
+  background: #fff; }
